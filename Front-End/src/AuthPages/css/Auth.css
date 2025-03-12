@@ -1,0 +1,197 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-div {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../../Assets/Background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px 40px 40px 40px; /* Réduisez uniquement le padding en haut */
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    margin-top: 65px;
+    filter: drop-shadow(0 0 0.75rem rgb(229, 159, 252));
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.title-area .title {
+    color:#303030;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Afacad', sans-serif;
+}
+
+.inputs-area input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    color:#303030;
+    border: 1.5px solid #303030;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.submit-area .button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(180deg, #AF4BE8 0%, #622A82 100%);
+    color: white;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 20px;
+    font-family: 'Afacad', sans-serif;
+}
+
+.submit-area .button:hover {
+    background: linear-gradient(180deg, #f1f1f1 0%, #ffffff 100%);
+    color: #A042D5;
+    border: 1px solid #A042D5;
+}
+
+.social-area .or-divider {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Afacad', sans-serif;
+    color: #A042D5;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 11px;
+    color: #303030;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.discord-icon {
+    width: 23px;
+}
+
+.social-button-text {
+    flex: 1;
+    padding-left: 6%;
+    text-align: center;
+}
+
+.dummy-element {
+    width: 23px; /* Même largeur que l'icône pour équilibrer l'espace */
+    opacity: 0; /* Rendre l'élément invisible */
+}
+
+
+.social-button img {
+    width: 23px;
+    margin-right: 0px;
+}
+
+.social-button:hover{
+    background: linear-gradient(180deg, #AF4BE8 0%, #622A82 100%);
+    color: white;
+}
+
+.social-button.google {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.social-button.google img.google_icon {
+    width: 23px;
+    margin-right: 8px;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: 'Afacad', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #303030;
+}
+
+.footer a {
+    color: #A042D5;
+    font-weight: bold;
+    font-family: 'Afacad', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    text-decoration: underline;
+
+}
+
+.footer a:hover {
+    color: #303030;
+}
+
+.error-messages {
+    padding-top: 10px;
+    color: rgb(65, 65, 65)
+}
+
+.success-messages {
+    padding-top: 10px;
+    color: rgb(45, 66, 63)
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .main-div {
+        padding-top: 80px;
+    }
+
+    .form-container {
+        padding: 20px;
+        max-width: 320px;
+    }
+
+    .title-area .title {
+        font-size: 23px;
+    }
+
+    .inputs-area input {
+        padding: 10px;
+    }
+
+    .submit-area .button {
+        padding: 8px;
+    }
+}

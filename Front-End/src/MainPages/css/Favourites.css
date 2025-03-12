@@ -1,0 +1,56 @@
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../../Assets/Background.png') no-repeat center center fixed;
+  background-size: cover;
+  padding: 20px;
+}
+
+.logo {
+  margin-top: 5vh;
+  width: 120px;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 36px;
+  color: #262626;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.boards-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.boards-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.board {
+  background-color: #f7f7f7;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #555;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}

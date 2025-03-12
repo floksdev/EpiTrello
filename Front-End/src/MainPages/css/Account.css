@@ -1,0 +1,169 @@
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../../Assets/Background.png') no-repeat center center fixed;
+  background-size: cover;
+  padding: 20px;
+}
+
+.logo {
+  margin-top: 5vh;
+  width: 120px;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 36px;
+  color: #262626;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.user-info {
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  /* text-align: left; */
+  margin-bottom: 20px;
+}
+
+.profile-picture,
+.default-avatar,
+.profile-picture {
+  margin: 0 auto 20px auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.default-avatar {
+  background-color: #9D43D0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #fff;
+}
+
+.user-info p {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #555;
+}
+
+.user-info p strong {
+  width: 120px;
+  display: inline-block;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.boards-section 
+{
+  color: #363636;
+  margin-top: 20px;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boards-list {
+  color: #9D43D0;
+  font-weight: bold;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.boards-list li {
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.password-section {
+  margin: 20px 0;
+}
+
+.password-section strong {
+  display: inline-block;
+  color: #555;
+  width: 120px;
+}
+
+.password-masked {
+  font-size: 16px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.edit-btn,
+.save-btn,
+.cancel-btn {
+  margin: 5px 5px 5px 0;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #9D43D0;
+  color: #fff;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover,
+.save-btn:hover,
+.cancel-btn:hover {
+  background-color: #7a2eaa;
+}
+
+.password-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: 10px;
+}
+
+.password-form div {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.password-form label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.password-form input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.password-message {
+  color: green;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
